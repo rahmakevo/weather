@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Weather checkout</title>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h3 class="text-center">The Weather Today!</h3>
+      <p class="text-center"><strong>Welcome Home</strong></p>
+      <p class="text-center">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+
+    <div class="container">
+      <form class="city">
+        <span class="form-group">
+          <label for="city" class="text-center"></label>
+          <input type="text" id="city" placeholder="search" class="text-center">
+          <button type="submit" id="submit" class="text-center">Submit</button>
+        </span>
+      </form>
+    </div>
+
+    <div>
+      <div id="output">
+        <h1 class="text-center"><strong>The Weather Today!</strong></h1>
+        <p class="text-center">The weather Today for is <span class="main"></span> and <span class="main2"></span>. Your current coordinates are longitude = <span class="lon"></span> and latitude = <span class="lat"></span>.
+          The temperature in degree celsius <br>is <span class="temp"></span> while the minimum temperature of the day is <span class="temp_min"></span> and the maximum temperature is <span class="temp_max"></span>
+          Whereas the pressure is <span class="pressure"></span>. The current humidity lies at <span class="humidity"></span>. <br>
+          The speed of the wind today is at <span class="speed"></span> and <span class="deg"></span> degrees.
+          This message accounts for <span class="country"></span>.
+        </p>
+        <p class="text-center">Thankyou, please subscribe for our newsletters!</p>
+      </div>
+    </div>
+
+  </body>
+</html>
